@@ -1,4 +1,5 @@
 FROM gliderlabs/alpine
+MAINTAINER Tom Nussbaumer <thomas.nussbaumer@gmx.net>
 
 RUN apk --update add git \
  && git clone https://github.com/minos-org/minos-static.git \
