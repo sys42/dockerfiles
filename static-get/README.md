@@ -1,6 +1,6 @@
 # sys42/static-get
 
-This image embeds [static-get](https://github.com/minos-org/minos-static) in a [Alpine Linux](http://alpinelinux.org/) Docker container.
+This image embeds [static-get](https://github.com/minos-org/minos-static) in an [Alpine Linux](http://alpinelinux.org/) Docker container.
 
 __static-get__ is an utility that lets you fetch statically linked linux binaries.
 
