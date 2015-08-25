@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine
+FROM alpine
 MAINTAINER Tom Nussbaumer <thomas.nussbaumer@gmx.net>
 
 RUN apk --update add git \
