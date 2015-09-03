@@ -10,12 +10,12 @@ if [ $# -eq 0 ]; then
   exit 1
 fi
 
-tag=$1
+tag="$1"
 
 cd "$(readlink -f "$(dirname "$BASH_SOURCE")")"
 dirs=$(ls -d */)
 
-for dir in $dirs; do
+for dir in "$dirs"; do
   cd "$dir"
   name="$prefix/$(echo $dir | sed 's/\/$//g')"
   echo "[INFO] building $name:$tag ..."
